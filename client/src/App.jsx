@@ -117,7 +117,7 @@ const App = () => {
 			{!loading ? 
 			<div className="min-h-screen min-w-full flex flex-col gap-3 items-center justify-center p-4 bg-[#EBEEF5]">
 
-				<div className="text-2xl sm:text-4xl text-center absolute top-10 inset-x-0">Deepfake Detection</div>
+				<div className="text-2xl sm:text-4xl text-center absolute top-10 inset-x-0">Deepfake Detection MIT ADT </div>
 
 				{!videoUrl && !imageUrl ? <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
 					<div className="size-52">
@@ -185,7 +185,7 @@ const App = () => {
 					wrapperStyle={{}}
 					wrapperClass="dna-wrapper"
 				/>
-				<h1>Be patient, It may take a while...</h1>
+				<h1>Be patient, It may take a while mintues ...</h1>
 			</div>}
 			<ToastContainer/>
 		</div>
